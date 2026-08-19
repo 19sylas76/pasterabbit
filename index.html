@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY SEO BLOCK -->
+    <title>Paste Rabbit | Blazing Fast Text Expander & Snippet Manager</title>
+    <meta name="description" content="Paste Rabbit is an ultra-secure, offline desktop text expander and code snippet manager. Save templates, canned responses, and code blocks in a floating hotkey widget.">
+    <meta name="keywords" content="text expander, snippet manager, code repository, canned responses, offline vault, productivity tool, Paste Rabbit, PasteRabbit Pro">
+    <meta name="author" content="Myles Russell">
+    <link rel="canonical" href="http://pasterabbit.com">
+    <meta name="robots" content="index, follow">
+
+    <!-- OPEN GRAPH (Facebook, LinkedIn, Discord Social Cards) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pasterabbit.com">
+    <meta property="og:title" content="Paste Rabbit | Hop Through Your Typing.">
+    <meta property="og:description" content="Securely store and instantly access your text snippets, canned responses, and code blocks directly from a lightweight floating desktop utility. 100% offline & encrypted.">
+    <meta property="og:image" content="http://pasterabbit.com">
+
+    <!-- TWITTER CARDS (X Platform Optimization) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="http://pasterabbit.com">
+    <meta name="twitter:title" content="Paste Rabbit | Offline Text Expander & Snippet Manager">
+    <meta name="twitter:description" content="Lightweight floating desktop widget to instantly paste templates, scripts, and messages into any Windows application. Built for developers and creators.">
+    <meta name="twitter:image" content="http://pasterabbit.com">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: #ffffff; color: #1e293b; padding: 24px; line-height: 1.5; }
+        .wrapper { max-width: 800px; margin: 0 auto; }
+        
+        /* Header */
+        header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 24px; border-bottom: 1px solid #f1f5f9; margin-bottom: 40px; }
+        .logo { font-size: 20px; font-weight: bold; }
+        .logo a { text-decoration: none; color: #0a192f; }
+        .logo span { color: #00D9FF; }
+        
+        /* Hero Section */
+        .hero { text-align: center; margin-bottom: 60px; }
+        .tag { font-size: 13px; font-weight: bold; color: #2563eb; letter-spacing: 0.1em; text-transform: uppercase; }
+        h1 { font-size: 38px; font-weight: 800; color: #0a192f; margin: 8px 0 16px; }
+        .subtitle { font-size: 18px; color: #475569; margin-bottom: 24px; }
+        
+        /* Buttons */
+        .btn-group { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+        .btn { display: inline-block; padding: 12px 24px; font-weight: bold; border-radius: 6px; text-decoration: none; font-size: 14px; transition: all 0.2s ease; }
+        .btn-primary { background: #2563eb; color: #ffffff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2); }
+        .btn-primary:hover { background: #1d4ed8; }
+        .btn-secondary { border: 1px solid #cbd5e1; color: #2563eb; background: #ffffff; }
+        .btn-secondary:hover { background: #f8fafc; border-color: #94a3b8; }
+        .requirement { font-size: 11px; color: #94a3b8; font-weight: 600; display: block; text-align: center; }
+
+        /* Features */
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 40px 0; }
+        .card { padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px; background: #f8fafc; }
+        .card h3 { font-size: 14px; color: #0a192f; margin-bottom: 6px; }
+        .card p { font-size: 12px; color: #64748b; }
+
+        /* Footer */
+        footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid #e2e8f0; text-align: center; font-size: 11px; color: #94a3b8; }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Header -->
+        <header>
+            <div class="logo"><a href="http://pasterabbit.com">Paste<span>Rabbit</span></a></div>
+            <a href="mailto:therealmylesrussell@gmail.com" style="font-size: 12px; color: #64748b; text-decoration: none;">Contact Support</a>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <span class="tag">Introducing Paste Rabbit 1.0</span>
+            <h1>Type it once. Never type it again.</h1>
+            <p class="subtitle">The simple, secure way to store and instantly access your text snippets, canned responses, and code directly from a floating desktop utility.</p>
+            
+            <div class="btn-group">
+                <!-- UPDATED LINKS FOR PASTE RABBIT DEPLOYMENT -->
+                <a href="https://github.com" class="btn btn-secondary">Download Free Trial</a>
+                <a href="https://lemonsqueezy.com" class="btn btn-primary">Purchase Upgrade Key</a>
+            </div>
+            <span class="requirement">Windows 10 / 11 (64-bit Systems) · 100% Offline & Encrypted</span>
+        </section>
+
+        <!-- Core Value Strip -->
+        <section class="features">
+            <div class="card">
+                <h3>⚡ Instant Access</h3>
+                <p>Open the frameless system widget, click an entry, and insert text anywhere you are working instantly.</p>
+            </div>
+            <div class="card">
+                <h3>📁 Local-First Security</h3>
+                <p>Everything is encrypted locally using Fernet (AES-128) via PBKDF2. No data ever leaves your computer.</p>
+            </div>
+            <div class="card" style="border: 1px solid #bfdbfe; background: linear-gradient(to bottom, #f8fafc, #ffffff); position: relative;">
+                <span style="position: absolute; top: 12px; right: 12px; background: #2563eb; color: #ffffff; font-size: 9px; font-weight: bold; padding: 2px 6px; border-radius: 20px; text-transform: uppercase;">Coming in 2.0</span>
+                <h3>🤖 OpenAI Generation</h3>
+                <p>Describe what you want to say, and let built-in AI generate, rephrase, or expand your text library instantly.</p>
+            </div>
+        </section>
+
+        <!-- Minimal Base Footer -->
+        <footer>
+            <p>&copy; 2026 Myles Russell. All rights reserved. Built for creators, developers, and professionals.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
